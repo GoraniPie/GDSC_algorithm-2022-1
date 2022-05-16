@@ -10,7 +10,7 @@ int main() {
 
 	const int input_length = input_.length();
 
-	std::vector<bool> arr(10, false);
+	std::vector<bool> arr(10, true);
 	for (int i = 0; i < input_length; i++) {
 		if (input_.find("zero") != std::string::npos) {
 			input_.replace(input_.find("zero"), 4, "0");
