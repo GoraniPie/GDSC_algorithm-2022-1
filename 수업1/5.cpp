@@ -8,7 +8,6 @@ int main() {
 	std::string input_;
 	std::cin >> input_;
 
-	const int input_length = input_.length();
 	const std::vector<std::string> arr1 = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 	const std::vector<std::string> arr2 = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
