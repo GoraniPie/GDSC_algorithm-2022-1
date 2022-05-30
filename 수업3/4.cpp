@@ -10,9 +10,9 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    vector<string> mylist = {"dog", "cat", "parrot"};
+    vector<string> mylist = { "dog", "cat", "parrot" };
     for (int i = 0; i < 3; i++) {
-        printf("%s\n", mylist[i][0]);
+        cout << mylist[i][0] << "\n";
     }
 
 }

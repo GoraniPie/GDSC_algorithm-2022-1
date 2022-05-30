@@ -12,7 +12,7 @@ int main() {
     cin >> a;
 
     for (short i = 1; i <= a; i++) {
-        printf("%hd * %hd = %hd\n", a, i, a * i);
+        cout << a << "*" << i << "=" << a * i << "\n";
     }
 
 }

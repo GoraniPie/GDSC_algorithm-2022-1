@@ -15,7 +15,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         cin >> a >> b;
-        printf("%d\n", a + b);
+        cout << a + b << "\n";
     }
 
 }
