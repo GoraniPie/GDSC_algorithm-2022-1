@@ -8,13 +8,13 @@ double input_avg();
 
 int main() {
 
-	input_avg();
+	cout << input_avg();
 
 }
 
 double input_avg() {
-    
-    string input_;
+
+	string input_;
 	vector<int> arr;
 
 	getline(cin, input_);
@@ -30,12 +30,19 @@ double input_avg() {
 		}
 	}
 
-    
-    
-    double sum = 0;
-	for (int i = 0; i < arr.size(); i++) {
-		sum += arr[i];
+
+
+	
+	if (arr.size() == 0) {
+		return stoi(input_);
+	}
+	else {
+		double sum = 0;
+		for (int i = 0; i < arr.size(); i++) {
+			sum += arr[i];
+		}
+		return sum / arr.size();
 	}
 
-	return sum / arr.size();
+	
 }
