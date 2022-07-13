@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int factorial(int n);
+unsigned long long factorial(int n);
 
 int main() {
 
@@ -14,7 +14,7 @@ int main() {
 
 }
 
-int factorial(int n) {
+unsigned long long factorial(int n) {
     if (n <= 1) {
         return 1;
     }
