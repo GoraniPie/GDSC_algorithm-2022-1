@@ -16,9 +16,9 @@ int main() {
 		return 0;
 	}
 
-	int dp1 = 0;
-	int dp2 = 1;
-	int dp3 = 1;
+	unsigned long long dp1 = 0;
+	unsigned long long dp2 = 1;
+	unsigned long long dp3 = 1;
 	int cases;
 
 	for (int i = 2; i <= n; i++) {
